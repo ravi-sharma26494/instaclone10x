@@ -1,0 +1,37 @@
+.landingpage{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.banner{
+    padding: 15px;
+}
+.banner img{
+    height: 500px;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+color: #006238;
+padding: 70px 0;
+text-align: center;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: white; 
+    color: #006238; 
+    border: 2px solid #006238;
+    font: normal normal normal 32px/39px Verdana;
+    border-radius: 10px;
+  }

@@ -1,0 +1,19 @@
+{
+  "name": "instaclone-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix instaclone-frontend && npm run build --prefix instaclone-frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  }
+}

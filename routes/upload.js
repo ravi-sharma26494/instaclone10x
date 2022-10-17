@@ -27,7 +27,7 @@ router.post('/upload', async (req,res)=>{
 });
 
 router.get('/allpost', (req,res)=>{
-    Upload.find()
+    Upload.find().sort('-createdAt')
     .then((posts)=>{
         res.json({posts})
     }).catch(err=>{

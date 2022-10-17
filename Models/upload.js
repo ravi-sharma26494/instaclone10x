@@ -6,5 +6,5 @@ const uploadSchema = new mongoose.Schema({
     description: String,
     likes:Number,
     date:String
-})
+},{timestamps:true})
 mongoose.model('Upload', uploadSchema)
